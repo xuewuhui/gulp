@@ -1,0 +1,1 @@
+function initColor(){console.log("init color for web!!")}$(document).ready(function(){initColor()});

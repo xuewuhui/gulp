@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<title>@@title</title>
+<link rel="stylesheet" type="text/css" href="css/index.css?rev=@@hash" />
+</head>
+<body>
+	<div class="warp">
+		<div class="header">
+
+	    	<ul>
+	    		@@if(type === 0){	
+	    			<li><a class='@@if(index === 0){active}'  href=''>合同录入</a></li>
+					<li><a class='@@if(index === 1){active}'  href=''>创建账号</a></li>	 
+	    		}
+
+	    		@@if(type === 1){
+	    			<li><a class='@@if(index === 2){active}' href=''>申请列表</a></li>
+	    		}
+
+	    		@@if(type === 2){
+	    			<li><a class='@@if(index === 3){active}' href=''>合同获取</a></li>
+		    		<li><a class='@@if(index === 4){active}' href=''>推荐人员</a></li>
+		    		<li><a class='@@if(index === 5){active}' href=''>我的资源</a></li>
+		    		<li><a class='@@if(index === 6){active}' href=''>申请记录</a></li>
+		    		<li><a class='@@if(index === 7){active}' href=''>自动申请</a></li>
+	    		}	
+	    	</ul>	
+	    </div>

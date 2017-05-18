@@ -1,2 +1,4 @@
 .DS_Store
 /node_modules
+/example-1/node_modules
+/example-1/dist
